@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS countdown timer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <h1 class="main-title">We're launching soon</h1>
+        <div class="timer">
+          <div class="timer-data">
+            <span class="timer-count" data-date="days"></span>
+            <span class="line"></span>
+            <span class="timer-data-type">Days</span>
+          </div>
+          <div class="timer-data">
+            <span class="timer-count" data-date="hours"> </span>
+            <span class="line"></span>
+            <span class="timer-data-type">Hours</span>
+          </div>
+          <div class="timer-data">
+            <span class="timer-count" data-date="minutes"> </span>
+            <span class="line"></span>
+
+            <span class="timer-data-type">Minutes</span>
+          </div>
+          <div class="timer-data">
+            <span class="timer-count" data-date="seconds"> </span>
+            <span class="line"></span>
+
+            <span class="timer-data-type">Seconds</span>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer__social">
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a href="/" class="footer__social-link"
+              ><i class="fa-brands fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a href="/" class="footer__social-link"
+              ><i class="fa-brands fa-pinterest-square"></i>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a href="/" class="footer__social-link"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
